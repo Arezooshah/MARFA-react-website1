@@ -20,7 +20,7 @@ const TestimonialLayout2 = ({
               height={168}
             />
           )}
-          <div className="flex justify-center items-center border-[5px] border-white dark:border-slate-700 bg-primary -mt-4 md:mb-0 -ml-14 rounded-full w-16 md:w-16 h-16 shrink-0">
+          <div className="flex justify-center items-center border-[5px] border-white dark:border-slate-700 bg-primary -mt-4 md:mb-0 ml-0 rounded-full w-16 md:w-16 h-16 shrink-0">
             <svg
               width="22"
               height="19"

@@ -20,7 +20,7 @@ const TestimonialsSliderLayout2 = ({
   }
 
   return (
-    <div className="testimonials-slider--layout-2 relative">
+    <div className="relative testimonials-slider--layout-2">
       <Swiper
         {...swiperParams}
         ref={sliderRef}
