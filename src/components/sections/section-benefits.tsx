@@ -6,6 +6,9 @@ import {
 } from "@/components/ui/dialog";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { Play } from "@/components/icons/icons";
+import pic2  from "/public/freepik/31.avif"
+import pic3  from "/public/freepik/6.avif"
+
 
 const SectionBenefits = () => {
   return (
@@ -22,7 +25,7 @@ const SectionBenefits = () => {
               className="-z-[1] absolute dark:opacity-10 -translate-y-8 scale-110"
             />
             <img
-              src="/public/freepik/31.avif"
+              src={pic2}
               alt="benefits"
               width={640}
               height={640}
@@ -30,7 +33,7 @@ const SectionBenefits = () => {
             />
             <div className="top-1/2 -left-10 absolute rounded-xl w-1/2 lg:w-auto animate-fly">
               <img
-                src="/public/freepik/6.avif"
+                src={pic3}
                 alt="benefits"
                 width={220}
                 height={220}

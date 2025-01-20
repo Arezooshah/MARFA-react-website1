@@ -1,6 +1,11 @@
 import TestimonialsSliderLayout2 from "@/components/testimonials-slider-layout-2";
 import { Pagination } from "swiper/modules";
 import SectionTitle from "./section-title";
+import pic1  from "/public/freepik/bb2.bmp";
+import pic2  from "/public/freepik/ba2.bmp";
+import pic3  from "/public/freepik/bb2.bmp";
+import pic4  from "/public/freepik/bb3.bmp";
+
 
 // Import Swiper styles
 import "swiper/css";
@@ -12,7 +17,7 @@ export const testimonials = [
     company: "شرکت برنامه نویسی مارفا",
     comment:
       " مارفا یکی از هیجان انگیزترین هاست، اگر به شکل دادن به یک مدل کسب و کار جدید برای سازندگان علاقه دارید، این تیمی است که باید به آن بپیوندید..",
-    image: "/public/freepik/bb2.bmp",
+    image: {pic1},
 
     rating: 5,
   },
@@ -21,7 +26,7 @@ export const testimonials = [
     company: "شرکت مهندسی بهارد",
     comment:
       "مارفا یکی از هیجان انگیزترین هاست، اگر به شکل دادن به یک مدل کسب و کار جدید برای سازندگان علاقه دارید، این تیمی است که باید به آن بپیوندید.",
-    image: "/public/freepik/ba2.bmp",
+    image: {pic2},
 
     rating: 5,
   },
@@ -30,7 +35,7 @@ export const testimonials = [
     company: "شرکت برنامه نویسی مارفا",
     comment:
       "مارفا یکی از هیجان انگیزترین هاست، اگر به شکل دادن به یک مدل کسب و کار جدید برای سازندگان علاقه دارید، این تیمی است که باید به آن بپیوندید..",
-    image: "/public/freepik/bb2.bmp",
+    image: {pic3},
 
     rating: 5,
   },
@@ -39,7 +44,7 @@ export const testimonials = [
     company: "شرکت برنامه نویسی مارفا",
     comment:
       "مارفا یکی از هیجان انگیزترین هاست، اگر به شکل دادن به یک مدل کسب و کار جدید برای سازندگان علاقه دارید، این تیمی است که باید به آن بپیوندید..",
-    image: "/public/freepik/bb3.bmp",
+    image: {pic4},
 
     rating: 5,
   },
@@ -47,8 +52,8 @@ export const testimonials = [
 
 const SectionTestimonialsSliderLayout2 = () => {
   return (
-    <section className="overflow-hidden bg-gradient-to-b from-[#EBE4FA]/25 to-muted/25 py-20 dark:bg-slate-900 dark:bg-none lg:py-24">
-      <div className="container relative overflow-hidden xl:left-[calc((100vw-1312px)/4)] xl:max-w-[calc(1312px+((100vw-1312px)/2))] xl:pr-[calc((100vw-1280px)/2)]">
+    <section className="dark:bg-slate-900 bg-gradient-to-b from-[#EBE4FA]/25 to-muted/25 dark:bg-none py-20 lg:py-24 overflow-hidden">
+      <div className="relative xl:left-[calc((100vw-1312px)/4)] xl:pr-[calc((100vw-1280px)/2)] xl:max-w-[calc(1312px+((100vw-1312px)/2))] overflow-hidden container">
         <SectionTitle
           subtitle="مشتریانی  که قبلاً خدمات ما را امتحان کرده اند."
           sectionClasses="mx-auto max-w-xl text-center mb-12"

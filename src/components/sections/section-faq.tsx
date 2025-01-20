@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import pic4 from "/public/freepik/4.avif"
 
 import {
   Accordion,
@@ -92,7 +93,7 @@ const SectionFAQ = () => {
               />
               <div className="md:flex lg:justify-end md:space-x-8 mt-12">
                 <img
-                  src="/public/freepik/4.avif"
+                  src={pic4}
                   alt="benefits"
                   width={320}
                   height={320}
