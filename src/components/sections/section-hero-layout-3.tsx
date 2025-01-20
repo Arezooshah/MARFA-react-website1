@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
-
+import pic1  from "/public/freepik/21.avif"
 const SectionHeroLayout3 = () => {
   return (
     <div className="relative bg-white dark:bg-transparent overflow-hidden">
@@ -67,7 +67,7 @@ const SectionHeroLayout3 = () => {
               {/* pic$ & ... */}
              <div className="ml-0">
                 <img
-                    src="/public/freepik/4.jpg"
+                    src={pic1}
                     width={600}
                     height={600}
                     alt="consulting hero"
