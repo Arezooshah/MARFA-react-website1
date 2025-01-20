@@ -67,7 +67,7 @@ const SectionHeroLayout3 = () => {
               {/* pic$ & ... */}
              <div className="ml-0">
                 <img
-                    src="/public/freepik/21.avif"
+                    src="/public/freepik/4.jpg"
                     width={600}
                     height={600}
                     alt="consulting hero"
