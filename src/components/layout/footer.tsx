@@ -33,7 +33,7 @@ const Footer = () => {
               <p className="mt-6 mb-8">
                 ابزارهایی برای ساخت موثر برند و رشد کسب و کار شما.
               </p>
-              <div className="flex space-x-2">
+              <div className="flex gap-1 space-x-2">
                 <a
                   href="#"
                   className="flex justify-center items-center bg-black hover:bg-foreground mb-2 rounded w-10 h-10 text-white hover:text-white transition-colors"
