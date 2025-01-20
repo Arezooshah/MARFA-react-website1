@@ -1,11 +1,10 @@
 import TestimonialsSliderLayout2 from "@/components/testimonials-slider-layout-2";
 import { Pagination } from "swiper/modules";
 import SectionTitle from "./section-title";
-import pic1  from "/public/freepik/bb2.bmp";
-import pic2  from "/public/freepik/ba2.bmp";
-import pic3  from "/public/freepik/bb2.bmp";
-import pic4  from "/public/freepik/bb3.bmp";
-
+import pic1 from  "/public/team/15.jpg";
+import pic2 from  "/public/team/12.jpg";
+import pic3 from  "/public/team/15.jpg";
+import pic4 from  "/public/team/14.jpg";
 
 // Import Swiper styles
 import "swiper/css";
@@ -17,7 +16,7 @@ export const testimonials = [
     company: "شرکت برنامه نویسی مارفا",
     comment:
       " مارفا یکی از هیجان انگیزترین هاست، اگر به شکل دادن به یک مدل کسب و کار جدید برای سازندگان علاقه دارید، این تیمی است که باید به آن بپیوندید..",
-    image: {pic1},
+      image: pic1,
 
     rating: 5,
   },
@@ -26,7 +25,7 @@ export const testimonials = [
     company: "شرکت مهندسی بهارد",
     comment:
       "مارفا یکی از هیجان انگیزترین هاست، اگر به شکل دادن به یک مدل کسب و کار جدید برای سازندگان علاقه دارید، این تیمی است که باید به آن بپیوندید.",
-    image: {pic2},
+    image: pic2,
 
     rating: 5,
   },
@@ -35,7 +34,7 @@ export const testimonials = [
     company: "شرکت برنامه نویسی مارفا",
     comment:
       "مارفا یکی از هیجان انگیزترین هاست، اگر به شکل دادن به یک مدل کسب و کار جدید برای سازندگان علاقه دارید، این تیمی است که باید به آن بپیوندید..",
-    image: {pic3},
+    image: pic3,
 
     rating: 5,
   },
@@ -44,7 +43,7 @@ export const testimonials = [
     company: "شرکت برنامه نویسی مارفا",
     comment:
       "مارفا یکی از هیجان انگیزترین هاست، اگر به شکل دادن به یک مدل کسب و کار جدید برای سازندگان علاقه دارید، این تیمی است که باید به آن بپیوندید..",
-    image: {pic4},
+    image: pic4,
 
     rating: 5,
   },
